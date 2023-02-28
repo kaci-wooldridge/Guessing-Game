@@ -56,6 +56,8 @@ int diffFun (string choice)
     }
     else
     {
+        Console.Write("That was not an option. Perma-ban.");
+        x = 0;
     }
     return x;
 }
